@@ -2,11 +2,11 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'mineskyid.aternos.me', // Ganti dengan alamat server Aternos Anda
-    port: 63873, // Port default Minecraft
+    host: 'mineskyid2.aternos.me', // Ganti dengan alamat server Aternos Anda
+    port: 29799, // Port default Minecraft
     username: 'NamaBotAnda', // Ganti dengan nama bot Anda
     auth: 'offline', // Non-premium mode
-    version: '1.21.51.02', // Ganti dengan versi server Anda
+    version: '1.21.4', // Ganti dengan versi server Anda
 
   });
 
