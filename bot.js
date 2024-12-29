@@ -26,6 +26,18 @@ function createBot() {
     moveRandomly();
   });
 
+  //alasan bot terputus
+  bot.on('kicked', (reason, loggedIn) => {
+    console.log('Bot di-kick dari server:', reason);
+  });
+  bot.on('error', (err) => {
+    console.error('Terjadi error:', err);
+  });
+  bot.on('end', (reason) => {
+    console.log('Bot terputus. Alasan:', reason);
+  });
+
+
   // Event untuk reconnect jika terputus
   bot.on('end', () => {
     console.log('Bot terputus, mencoba reconnect...');
