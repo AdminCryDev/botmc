@@ -3,9 +3,9 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'mineskyid2.aternos.me',
-    port: 29799,
-    username: 'BTMC_',
+    host: 'mineskyid.aternos.me',
+    port: 64628,
+    username: 'BTMC_MineSky',
     auth: 'offline',
     version: '1.21.4',
   });
